@@ -21,6 +21,8 @@ const styles = {
     boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
     display: "flex",
     alignItems: "center",
+    flexWrap: "wrap",
+    justifyContent: "center",
     "&:hover": {
       borderColor: "#FF9E5E",
       boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",

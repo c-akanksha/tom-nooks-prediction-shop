@@ -14,7 +14,11 @@ const styles = {
   },
   cardsContainer: {
     display: "grid",
-    gridTemplateColumns: "repeat(3, 1fr)",
+    gridTemplateColumns: {
+      xs: "1fr", // mobile
+      sm: "repeat(2, 1fr)", // tablet
+      md: "repeat(3, 1fr)", // desktop
+    },
     gap: "2rem",
     width: "100%",
     margin: "0 auto",
